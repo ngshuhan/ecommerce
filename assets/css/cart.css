@@ -1,0 +1,34 @@
+ul.shopping-cart{
+	min-width:250px;
+	padding:10px;
+}
+
+li.item{
+	padding:10px;
+	font-size:10pt;
+}
+span.item-name{
+	display:inline-block;
+	width:60%;
+	margin-left:10px;
+	font-weight:bold;
+}
+img.cart-img{
+	width:60px;
+	height:60px;
+}
+input.red{
+	color:red !important;
+}
+input.btn-link{
+	text-decoration:underline;
+}
+a#checkout{
+	font-weight:bold;
+}
+
+@media (min-width: 768px) {
+	#list:hover .dropdown-menu {
+		display: block;
+	}
+}
