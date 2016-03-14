@@ -39,10 +39,11 @@
 */
 
 $route['default_controller'] = "users";
-$route['index.php/products/show/(:any)'] = 'products/show/$1';
+$route['products/show/(:any)'] = 'products/show/$1';
 $route['products/delete/(:any)/(:any)'] = 'products/delete/$1/$2';
 $route['users/new'] = "users/new_user";
 $route['success'] = "sessions/success";
+
 
 $route['products/edit/(:any)'] = "products/edit/$1";
 $route['carts/delete/(:any)'] = "carts/delete/$1";

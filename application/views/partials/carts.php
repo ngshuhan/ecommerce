@@ -19,7 +19,7 @@ if ($this->session->userdata('total_qty')>0) {
 			<li class="item">
 				<img class="cart-img" src="<?= base_url('assets/images/'.$cart_items[$i]['product_id'].".jpeg")?>"/>
 				<span class="item-name"><?=$cart_items[$i]['product_name']?>
-				<form id="delete" action="/Carts/delete" method="post">
+				<form id="delete" action="/carts/delete" method="post">
 					<input type="hidden" name="product_id" value="<?= $cart_items[$i]['product_id']?>">
 					<input type="submit" class="btn btn-link red" value="Remove?">
 				</form>
