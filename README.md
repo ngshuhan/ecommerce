@@ -3,10 +3,15 @@
 
 **Disclaimer: This app is only built on the purpose of showing mastery on the LAMP stack. Although it used Stripe API for transactions, it doesn't aim at making any profit. The photos are from freepeople.com, and if you do like the products, please refer to their website.** 
 
+
+
 This is a final project that built to demonstrate the full understanding of LAMP stack. It is an ecommerce web app that allows people to shop women apparel, with only registered customers can track their order history. It also has an admin
 functionality that allows logged in admin to add and update of an product. Stripe API technology is used for customers to checkout.
 
 
+
+##Deployment##
+http://52.37.248.56/
 
 
 **Technology includes**
@@ -18,6 +23,7 @@ functionality that allows logged in admin to add and update of an product. Strip
 - Codeigniter
 - Stripe API
 - Bootstrap
+
 
 
 
