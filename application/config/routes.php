@@ -38,15 +38,15 @@
 |
 */
 
-$route['default_controller'] = "Users";
+$route['default_controller'] = 'users';
 $route['products/show/(:any)'] = 'products/show/$1';
 $route['products/delete/(:any)/(:any)'] = 'products/delete/$1/$2';
-$route['users/new'] = "users/new_user";
-$route['success'] = "sessions/success";
+$route['users/new'] = 'users/new_user';
+$route['success'] = 'sessions/success';
 
 
-$route['products/edit/(:any)'] = "products/edit/$1";
-$route['carts/delete/(:any)'] = "carts/delete/$1";
+$route['products/edit/(:any)'] = 'products/edit/$1';
+$route['carts/delete/(:any)'] = 'carts/delete/$1';
 $route['orders/new'] = 'orders/new_order';
 $route['404_override'] = '';
 
