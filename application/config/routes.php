@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "users";
+$route['default_controller'] = "Users";
 $route['products/show/(:any)'] = 'products/show/$1';
 $route['products/delete/(:any)/(:any)'] = 'products/delete/$1/$2';
 $route['users/new'] = "users/new_user";
